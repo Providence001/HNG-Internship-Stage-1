@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body git{
+    background-color: black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  [data-testid]{
+    font-weight: bold;
+  }
+  
+  .container {
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 35px;
+    border-radius: 17px;
+  }
+  
+  .profileImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 60%;
+    margin: 0 auto 30px;
+    display: block;
+  }
+  
+  .details {
+    margin: 0 auto 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+  }
